@@ -1,0 +1,17 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#roll{
+    font-size: 30px;
+    padding: 5px 26px;
+    border-radius: 6px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.Label{
+    font-size: 40px;
+    
+}
