@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .product-section{
+            width: 45%;
+            margin-left: 80px;
+            margin-top: 130px;
+            margin-bottom: 30px;
+            
+            
+        }
+
+        .pro-section{
+            display: flex;
+            justify-content: space-between;
+            
+            
+        }
+
+        .smail-img-group{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .smail-img-check{
+            flex-basis: 24%;
+            cursor: pointer;
+        }
+
+        .details-section{
+            margin-left: 30px;
+            /* white-space: nowrap; */
+        
+        }
+
+        .details-section select{
+            display: block;
+            padding: 5px 10px;
+            outline: none;
+            margin-bottom: 5px;
+        }
+
+        .details-section input{
+            width: 50px;
+            height: 30px;
+            padding-left: 10px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        .details-section button{
+            background-color: #fb774b;
+            color: white;
+            font-weight: bold;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+
+        .details-section button:hover{
+            background-color: #fa9370;
+        }
+        
+        .details-section h4{
+           margin-top: 15px;
+        }
+
+        @media (max-width: 820px){
+            .product-section {
+              width: 100%;
+             margin-left: 0px;
+            margin-top: 130px;
+    
+
+}
+
+.pro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.details-section {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.details-section h2{
+    margin-bottom: 10px;
+}
+
+.details-section select{
+    margin-bottom: 10px;
+    outline: auto;
+}
+
+.details-section input{
+    outline: auto;
+    margin-right: 6px;
+}
+        }
+
+    </style>
+    
+</head>
+<body>
+    <nav class="nav-bar" >
+        <a href="index.html"><img src="images/logo1.png" class="logo" alt=""></a>
+        <div id="navigation" class="links">
+           <a href="index.html" >Home</a>
+           <a href="shop.html" >Shop</a>
+           <a href="blog.html">Blog</a>
+           <a href="about.html">About</a>
+           <a href="contact.html">Contact Us</a>
+           
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping shop"></i></a>
+        
+            <i class="fa-solid fa-x" id="close-bar"></i>
+        </div>
+        <i class="fa-solid fa-bars bar" id="bar"></i>
+        
+           
+    </nav>
+
+   <section class="product-section">
+    <div class="pro-section">
+       <div>
+        <img src="images/shop-image/1 (7).jpg" width="100%" id="main-img"  alt="">
+
+        <div  class="smail-img-group">
+            <div class="smail-img-check">
+                <img src="images/shop-image/1 (7).jpg" width="100%" class="smail-img" alt="">
+            </div>
+            <div class="smail-img-check">
+                <img src="images/shop-image/24.jpg" width="100%" class="smail-img" alt="">
+            </div>
+            <div class="smail-img-check">
+                <img src="images/shop-image/26.jpg" width="100%" class="smail-img" alt="">
+            </div>
+            <div class="smail-img-check">
+                <img src="images/shop-image/25.jpg" width="100%" class="smail-img" alt="">
+            </div>
+        </div>
+       </div>
+
+       <div class="details-section">
+          <h6>Home / T-Shirt</h6>
+          <h4>Men's Fashion T-Shirt</h4>
+          <h2>$182.99</h2>
+          
+          <select>
+            <option>Select Size</option>
+            <option value="">XL</option>
+            <option value="">XXL</option>
+            <option value="">Small</option>
+            <option value="">Large</option>
+          </select>
+          <input type="number" value="1"> 
+          <a href="cart.html"><button>Add To Cart</button></a>
+          <h4>Product Details</h4>
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, perspiciatis ratione corporis similique dignissimos dolores neque unde nihil possimus tempora rem quidem tenetur quae reiciendis optio voluptatum veritatis deserunt iusto!</span>
+       </div>
+    </div>
+   </section>
+
+   <section class="feature-section">
+       
+    <h2>Related Products</h2>
+    <hr>
+    <h5>Here you can check out our new 
+     products with fair prices on <span class="dot">rymo.</span>
+    </h5>
+
+    <div class="image">
+        <div class="img">
+        <img src="images/shoe-image/5 (3).jpg" width="300" class="image1" alt="">
+        <div class="feature-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+        </div>
+        <div>
+            <h5>Shoe</h5>
+            <h4>$22.00</h4>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+    
+    <div class="img">
+        <img src="images/shoe-image/6 (2).jpg" width="300" class="image2" alt="">
+        <div class="feature-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div>
+            <h5>Shoe</h5>
+            <h4>$20.99</h4>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="images/shoe-image/7.jpg" width="300" class="image3" alt="">
+        <div class="feature-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div>
+            <h5>Shoe</h5>
+            <h4>$31.87</h4>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="images/shoe-image/8.jpg" width="300" class="image4" alt="">
+        <div class="feature-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div>
+            <h5>Shoe</h5>
+            <h4>$27.19</h4>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+    
+</div>
+   
+</section>
+
+
+    <footer>
+    
+        <div class="footer-section">
+           <img src="images/logo2.png" alt="">
+           <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.  Necessitatibus <br> soluta vel  voluptatem nisi <br> dicta  incidunt  doloribus  ducimus dolore.</p>
+        </div>
+
+        <div>
+            <h4 class="footer">Featured</h4>
+            <p>MEN</p>
+            <p>WOMEN</p>
+            <p>BOYS</p>
+            <p>GIRLS</p>
+            <p>NEW ARRIVALS</p>
+            <p>SHOES</p>
+            <p>CLOTHS</p>
+        </div>
+
+        <div>
+            <h4 class="footer">Contact Us</h4>
+            <p class="footer">ADDRESS</p>
+            <p>12 STREET NAME.CITY.STATE</p>
+            <p class="footer">PHONE</p>
+            <p>(123) 456-7890</p>
+            <p class="footer">EMAIL</p>
+            <p>talk2mimie.reply@gmail.com</p>
+            
+        </div>
+
+        <div>
+            <h4 class="footer">Instagram</h4>
+            <img src="images/instagram-image/1 (4).jpg" width="60" alt="">
+            <img src="images/instagram-image/2 (4).jpg" width="60" alt="">
+            <img src="images/instagram-image/3 (3).jpg" width="60" alt=""><br>
+            <img src="images/instagram-image/4 (3).jpg" width="60" alt="">
+            <img src="images/instagram-image/6 (1).jpg" width="60" alt="">
+        </div>
+        
+    
+</footer>
+
+<footer>
+    <div>
+        <img src="images/payment.png" alt="">
+    </div>
+
+    <div class="copyright">
+        <h5>eCommerce © 2024. All Rights Reserved</h5>
+    </div>
+
+    <div class="social-icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <br>
+</footer>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

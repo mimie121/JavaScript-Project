@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar" >
+        <a href="index.html"><img src="images/logo1.png" class="logo" alt=""></a>
+        <div id="navigation" class="links">
+           <a href="index.html" >Home</a>
+           <a href="shop.html" >Shop</a>
+           <a href="blog.html">Blog</a>
+           <a href="about.html">About</a>
+           <a href="contact.html">Contact Us</a>
+           
+            <i class="fa-solid fa-magnifying-glass"></i>
+           <i class="fa-solid fa-bag-shopping"></i>
+        
+            <i class="fa-solid fa-x" id="close-bar"></i>
+        </div>
+        <i class="fa-solid fa-bars bar" id="bar"></i>
+        
+           
+    </nav>
+
+    <section class="shop-section">
+        <h3>Shopping Cart</h3>
+        <hr class="shopHr">
+    </section>
+
+     <section class="cart-section">
+        <table>
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                    <td><img src="images/shoe-image/1.jpg" alt=""></td>
+                    <td><h5>Shoe Fringilla</h5></td>
+                    <td><h5>$76.99</h5></td>
+                    <td><input class="cart-input" value="1" type="number"></td>
+                    <td><h5>$76.99</h5></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                    <td><img src="images/shoe-image/2.jpg" alt=""></td>
+                    <td><h5>Shoe Fringilla</h5></td>
+                    <td><h5>$66.99</h5></td>
+                    <td><input class="cart-input" value="1" type="number"></td>
+                    <td><h5>$66.99</h5></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                    <td><img src="images/shoe-image/3.jpg" alt=""></td>
+                    <td><h5>Shoe Fringilla</h5></td>
+                    <td><h5>$26.99</h5></td>
+                    <td><input class="cart-input" value="1" type="number"></td>
+                    <td><h5>$26.99</h5></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+     <section class="cart-coupon">
+      <div class="row">
+         <div class="coupon coupon-code">
+            <div>
+            <h5>COUPON</h5>
+            <p>Enter Your Coupon Code if you have one.</p>
+            <input type="text" placeholder="Coupon Code" name="" id=""> 
+            <button>APPLY COUPON</button>
+        </div>
+         </div>
+
+         <div class="coupon">
+            <h5>Cart Total</h5>
+            <div>
+            
+            <div class="subtotal">
+                <h6>Subtotal</h6>
+                <p>$115.00</p>
+            </div>
+
+            <div class="subtotal">
+                <h6>Shipping</h6>
+                <p>$125.00</p>
+            </div>
+            <hr class="cart-hr">
+
+            <div class="subtotal">
+                <h6>Total</h6>
+                <p>$255.50</p>
+            </div>
+            <br><br>
+            <div>
+                <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+            </div>
+           
+         </div>
+        </div>
+      </div>
+     </section>
+
+  
+
+  
+
+<footer>
+    
+        <div class="footer-section">
+           <img src="images/logo2.png" alt="">
+           <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.  Necessitatibus <br> soluta vel  voluptatem nisi <br> dicta  incidunt  doloribus  ducimus dolore.</p>
+        </div>
+
+        <div>
+            <h4 class="footer">Featured</h4>
+            <p>MEN</p>
+            <p>WOMEN</p>
+            <p>BOYS</p>
+            <p>GIRLS</p>
+            <p>NEW ARRIVALS</p>
+            <p>SHOES</p>
+            <p>CLOTHS</p>
+        </div>
+
+        <div>
+            <h4 class="footer">Contact Us</h4>
+            <p class="footer">ADDRESS</p>
+            <p>12 STREET NAME.CITY.STATE</p>
+            <p class="footer">PHONE</p>
+            <p>(123) 456-7890</p>
+            <p class="footer">EMAIL</p>
+            <p>talk2mimie.reply@GMAIL.COM</p>
+            
+        </div>
+
+        <div>
+            <h4 class="footer">Instagram</h4>
+            <img src="images/instagram-image/1 (4).jpg" width="60" alt="">
+            <img src="images/instagram-image/2 (4).jpg" width="60" alt="">
+            <img src="images/instagram-image/3 (3).jpg" width="60" alt=""><br>
+            <img src="images/instagram-image/4 (3).jpg" width="60" alt="">
+            <img src="images/instagram-image/6 (1).jpg" width="60" alt="">
+        </div>
+        
+    
+</footer>
+
+<footer>
+    <div>
+        <img src="images/payment.png" alt="">
+    </div>
+
+    <div class="copyright">
+        <h5>eCommerce © 2024. All Rights Reserved</h5>
+    </div>
+
+    <div class="social-icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <br>
+</footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
